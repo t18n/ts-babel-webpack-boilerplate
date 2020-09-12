@@ -16,7 +16,7 @@
     "dev": "run-p build:watch start"
   },
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
