@@ -12,7 +12,7 @@ fetch('https://pokeapi.co/api/v2/pokemon')
 	.then(response => {
 		return response.json();
 	})
-	.then(data => {
+	.then((data: any) => {
 		console.log(data.results);
 	})
 	.catch(function(reason) {
